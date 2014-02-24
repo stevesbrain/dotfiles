@@ -25,7 +25,7 @@ exec --no-startup-id setxkbmap
 exec --no-startup-id udiskie
 exec --no-startup-id feh --bg-scale /downloads/dagnachew/wallpapers/street-graffiti-in-tokyo-world-hd-wallpaper-1920x1200.jpg
 # start a terminal
-bindsym Mod4+Return exec --no-startup-id i3-sensible-terminal
+bindsym Mod4+Return exec --no-startup-id termite
 
 # kill focused window
 bindsym Mod4+Shift+q kill
@@ -61,10 +61,10 @@ bindsym Mod4+Shift+Up move up
 bindsym Mod4+Shift+Right move right
 
 # split in horizontal orientation
-bindsym Mod4+b split h
+bindsym Mod4+v split h
 
 # split in vertical orientation
-bindsym Mod4+v split v
+bindsym Mod4+b split v
 
 # enter fullscreen mode for the focused container
 bindsym Mod4+f fullscreen
@@ -100,8 +100,8 @@ bindsym Mod4+0 workspace 10
 
 # move focused container to workspace
 bindsym Mod4+Shift+1 move workspace 1: web
-bindsym Mod4+Shift+2 move workspace 2: media
-bindsym Mod4+Shift+3 move workspace 3: chat
+bindsym Mod4+Shift+2 move workspace 2: chat
+bindsym Mod4+Shift+3 move workspace 3: media
 bindsym Mod4+Shift+4 move workspace 4: dev
 bindsym Mod4+Shift+5 move workspace 5
 bindsym Mod4+Shift+6 move workspace 6
